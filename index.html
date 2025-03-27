@@ -107,6 +107,13 @@
             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"
                 d="m15.578 3.382l2 1.05c2.151 1.129 3.227 1.693 3.825 2.708C22 8.154 22 9.417 22 11.942v.117c0 2.524 0 3.787-.597 4.801c-.598 1.015-1.674 1.58-3.825 2.709l-2 1.049C13.822 21.539 12.944 22 12 22s-1.822-.46-3.578-1.382l-2-1.05c-2.151-1.129-3.227-1.693-3.825-2.708C2 15.846 2 14.583 2 12.06v-.117c0-2.525 0-3.788.597-4.802c.598-1.015 1.674-1.58 3.825-2.708l2-1.05C10.178 2.461 11.056 2 12 2s1.822.46 3.578 1.382ZM21 7.5l-4 2M12 12L3 7.5m9 4.5v9.5m0-9.5l4.5-2.25l.5-.25m0 0V13m0-3.5l-9.5-5" />
         </symbol>
+        <symbol id="notion" viewBox="0 0 24 24">
+            <rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path fill="currentColor" d="M8 8h2.5v8H8z"/>
+            <path fill="currentColor" d="M12.5 8h3c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2h-3z"/>
+          </symbol>
+          
+
         <symbol id="arrow-left" viewBox="0 0 256 256">
             <path fill="currentColor"
                 d="M220 128a4 4 0 0 1-4 4H49.66l65.17 65.17a4 4 0 0 1-5.66 5.66l-72-72a4 4 0 0 1 0-5.66l72-72a4 4 0 0 1 5.66 5.66L49.66 124H216a4 4 0 0 1 4 4" />
@@ -146,10 +153,10 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav text-center align-items-center justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active pe-lg-5" aria-current="page" href="#hero">Home</a>
+                            <a class="nav-link active pe-lg-5" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-lg-5" href="#offer">Services</a>
+                            <a class="nav-link pe-lg-5" href="#services">Services</a>
                         </li>
                         
                         <li class="nav-item">
@@ -171,7 +178,7 @@
 
     </nav>
 
-    <section id="hero" class="padding-large jarallax">
+    <section id="home" class="padding-large jarallax">
         <div class="container" data-aos="fade-up">
             <div class="row text-start">
                 <div class="col-lg-5">
@@ -241,7 +248,7 @@
         </div>
     </section>
 
-    <section id="offer" class="position-relative padding-medium" data-aos="fade-up">
+    <section id="services" class="position-relative padding-medium" data-aos="fade-up">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5 text-center">
@@ -329,6 +336,25 @@
                             </div>
                 
                     </div>
+                    <div class="swiper-slide text-center">
+                    
+                            <div class="offer-item border mb-4 p-5">
+                                <div class="product-item position-relative">
+                                    <svg class="offer-svg box" width="80" height="80">
+                                        <use xlink:href="#notion"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="mt-4">
+                                    Notion
+                                  </h4>
+                                  <p>
+                                    Organize your projects, collaborate with teams, and streamline your workflow using Notion’s versatile workspace.
+                                  </p>
+                                  
+                                 
+                            </div>
+                
+                    </div>
 
 
 
@@ -368,8 +394,8 @@
                     <button class="filter-button px-3 mb-3" data-filter=".branding-mats">
                         Branding Materials
                     </button>
-                    <button class="filter-button px-3 mb-3" data-filter=".poster">
-                        Poster
+                    <button class="filter-button px-3 mb-3" data-filter=".notion">
+                        Notion Templates
                     </button>
                 </p>
             </div>
@@ -379,8 +405,8 @@
                 <div class="project-content position-relative bg-black">
                     <img class="project-img img-fluid" src="images/ps-1.jpg" alt="img">
                     <div class="project-description p-5 position-absolute bottom-0 start-0">
-                        <h4 class="text-white">Eccomerce</h4>
-                        <a href="https://github.com/joshualedda/Eccomerce" class="text-white text-decoration-underline">Learn More</a>
+                        <h4 class="text-white">Typography One</h4>
+                        <a target="_blank" href="images/ps-1.jpg" class="text-white text-decoration-underline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -398,8 +424,8 @@
                 <div class="project-content position-relative bg-black">
                     <img class="project-img img-fluid" src="images/ps-2.jpg" alt="img">
                     <div class="project-description p-5 position-absolute bottom-0 start-0">
-                        <h4 class="text-white">ultra jot Coffee</h4>
-                        <a href="portfolio-details.html" class="text-white text-decoration-underline">Learn More</a>
+                        <h4 class="text-white">Typography Two</h4>
+                        <a target="_blank" href="images/ps-1.jpg" class="text-white text-decoration-underline">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -413,15 +439,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item branding-mats col-md-4 p-3">
-                <div class="project-content position-relative bg-black">
-                    <img class="project-img img-fluid" src="images/portfolio5.jpg" alt="img">
-                    <div class="project-description p-5 position-absolute bottom-0 start-0">
-                        <h4 class="text-white">Brochure</h4>
-                        <a href="portfolio-details.html" class="text-white text-decoration-underline">Learn More</a>
-                    </div>
-                </div>
-            </div>
+          
             <div class="item website col-md-4 p-3">
                 <div class="project-content position-relative bg-black">
                     <img class="project-img img-fluid" src="images/blog-web.png" alt="img">
@@ -433,21 +451,25 @@
                 </div>
             </div>
             
-            <div class="item poster col-md-4 p-3">
+            <div class="item notion col-md-4 p-3">
                 <div class="project-content position-relative bg-black">
-                    <img class="project-img img-fluid" src="images/portfolio6.jpg" alt="img">
+                    <img class="project-img img-fluid" src="images/notion-1.png" alt="img">
                     <div class="project-description p-5 position-absolute bottom-0 start-0">
-                        <h4 class="text-white">ultra jot Coffee</h4>
-                        <a href="portfolio-details.html" class="text-white text-decoration-underline">Learn More</a>
+                        <h4 class="text-white">Student Planner</h4>
+                        <a target="_blank" href="https://www.notion.so/Study-Sphere-1c3a667774b280939164dd38c99e3ca4?pvs=4" class="text-white text-decoration-underline">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center mt-5">
-            <a href="#" class="btn btn-dark me-4">
+      
+        <!-- Commented for the meantime -->
+        <!-- <div class="text-center mt-5">
+            <a href="portfolio.html" class="btn btn-dark me-4">
                 View Portfolios
             </a>
-        </div>
+        </div> -->
+
+
     </section>
 
 
